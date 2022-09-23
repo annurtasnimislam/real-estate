@@ -62,7 +62,7 @@ nav>div:nth-child(2)>a{
 }
 .find>div:nth-child(2)>img{
     width: 800px;
-    height: 500px;
+    height: 480px;
     object-fit: cover;
 }
 .rent{
@@ -97,6 +97,10 @@ nav>div:nth-child(2)>a{
 }
 .icon{
     display: flex;
+    column-gap: 10px;
+}
+.icon>div:first-child{
+    font-size: 30px;
 }
 .icon>div:nth-child(2)>p:first-child{
     color: grey;
